@@ -25,7 +25,7 @@ The app displays:
 
 ## 📱 Screenshots
 
-![Image Alt](https://github.com/MuhmmadUmair/Weather-App/blob/0e836e8a4d824b32a71b30913a0fcef40e38cc99/Screenshot.png](https://github.com/MuhmmadUmair/Weather-App/blob/5c740854d8b76b2bb00062b7d68e4318b4e47d79/Screenshot.png)
+![Image Alt](https://github.com/MuhmmadUmair/Weather-App/blob/5c740854d8b76b2bb00062b7d68e4318b4e47d79/Screenshot.png)
 
 ---
 
