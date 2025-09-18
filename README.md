@@ -1,16 +1,102 @@
-# weather_app
+Here’s a professional **README.md** you can put in your GitHub repo for your Flutter Weather App 👇
 
-A new Flutter project.
+---
 
-## Getting Started
+# 🌦️ Flutter Weather App
 
-This project is a starting point for a Flutter application.
+A simple and elegant **Weather App** built with **Flutter** and **Provider** state management.
+The app displays:
 
-A few resources to get you started if this is your first Flutter project:
+* ✅ Current temperature, wind speed, and humidity
+* ✅ Previous 10 days’ weather details
+* ✅ Clean and responsive UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Features
+
+* Fetches live weather data from an API
+* Shows **wind speed**, **humidity**, and **temperature**
+* Displays a **10-day weather history**
+* Uses **Provider** for efficient state management
+* User-friendly interface with internationalization support
+
+---
+
+## 📱 Screenshots
+
+> *(Add screenshots of your app here)*
+
+---
+
+## 🛠️ Dependencies
+
+This project uses the following Flutter packages:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+  intl: ^0.20.2
+  provider: ^6.1.5+1
+```
+
+---
+
+## 📦 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/flutter_weather_app.git
+cd flutter_weather_app
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+flutter pub get
+```
+
+### 3️⃣ Run the App
+
+Connect your device or start an emulator, then run:
+
+```bash
+flutter run
+```
+
+
+🧭 How to Use
+
+1. Open the app after installing.
+2. Allow location access (if required).
+3. View the **current weather** details.
+4. Swipe or scroll to see the **previous 10 days** history.
+
+
+📂 Project Structure (Example)
+
+```
+lib/
+│
+├── main.dart
+├── models/
+│   └── weather_model.dart
+├── providers/
+│   └── weather_provider.dart
+├── services/
+│   └── weather_api.dart
+└── screens/
+    └── home_screen.dart
+```
+
+ 💡 Notes
+
+* Make sure you have a valid **weather API key** (e.g., from [OpenWeatherMap](https://openweathermap.org/api)) and place it in `weather_api.dart`.
+* The app uses `intl` for date formatting.
+
+🧑‍💻 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
